@@ -14,7 +14,7 @@ void task1(){
 }
 
 Future <String> task2() async {
-  Duration threeSeconds = Duration(seconds: 5);
+  Duration threeSeconds = Duration(seconds: 3);
   // sleep(threeSeconds);  синхронный методдун убакыт кармагычы
   String? result;
   await Future.delayed(threeSeconds, (){ //асинхронный метод 
